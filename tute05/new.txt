@@ -1,0 +1,50 @@
+superclass --> postcondition that output is 0 <= n <= 100
+subclass --> output is 0 <= n <= 200 this is weakening
+
+
+
+superclass function f is called in a program
+we expect it to return something 0 <= n <= 100
+
+lsp says we should be able to replace f with it's
+subclass's implementation
+
+but the subclasses implementation returns 0 <= n <= 200
+
+so we could possible get a return of like 150
+
+but this violates the parents postcondition
+
+so this means that the subclass is not replaceable with teh parent 
+class
+
+which means it violates LSP
+
+
+
+
+
+# in subclasses, preconditions can be weakened
+
+parent class accepts anything from 0 ~ 100 as an INPUT
+
+sub class accepts anything from 0 ~ 200 as an INPUT
+
+
+    public int compare(Student s1, Student s2) 
+    {
+        // compare zID first
+        if (s1.zID > s2.zID) {
+            return 1
+        } else if (s1.zID < s2.zID) {
+            return -1
+        }
+
+        if (s1.userId > s2.userId) {
+            
+        }
+                        
+        int v = sa.compareTo(sb);                             
+        return v;  // it can also return 0, and 1
+        
+    }
