@@ -17,6 +17,10 @@ public class GenericsExamples {
         // foo1 = new ArrayList<B>();
         // foo1 = new ArrayList<C>();
 
+
+        // https://stackoverflow.com/questions/4343202/difference-between-super-t-and-extends-t-in-java
+        // ? super B has pretty much NOTHING to do with what types the array itself holds, just what type it can be initialised with
+
         // when do we use <? super T> then?
         // https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
         // filter(Predicate<? super T> predicate)
