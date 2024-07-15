@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BankAccountThreadedAccessor",
+            "request": "launch",
+            "mainClass": "heist.BankAccountThreadedAccessor",
+            "projectName": "tute08_bace4a74"
+        },
+        {
+            "type": "java",
+            "name": "Stack",
+            "request": "launch",
+            "mainClass": "stack.Stack",
+            "projectName": "tute08_bace4a74"
+        },
+        {
+            "type": "java",
+            "name": "ConfusingExample",
+            "request": "launch",
+            "mainClass": "example.ConfusingExample",
+            "projectName": "tute08_bace4a74"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BankAccountThreadedAccessor",
+            "request": "launch",
+            "mainClass": "heist.BankAccountThreadedAccessor",
+            "projectName": "tute08_a7b8e8e4"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "fs.ui.App",
+            "vmArgs": "--module-path ./lib --add-modules javafx.controls,javafx.fxml,javafx.media -enableassertions"
+        }
+    ]
+}
